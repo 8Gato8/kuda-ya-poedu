@@ -37,4 +37,12 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__card/place__card.css);
 
+/*people*/
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__comments/people__comments.css);
+@import url(../blocks/people/__feed/people__feed.css);
+@import url(../blocks/people/__heading/people__heading.css);
+@import url(../blocks/people/__name/people__name.css);
+
 /*footer*/
+@import url(../blocks/footer/footer.css);
