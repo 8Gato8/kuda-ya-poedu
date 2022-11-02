@@ -1,1 +1,4 @@
-.text {}
+.text {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+}

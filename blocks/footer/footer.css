@@ -1,13 +1,12 @@
 .footer {
-    max-width: 1280px;
-    width: 100%;
-    display: flex;
-    background-color: rgb(248, 200, 160);
-    padding-top: 300px;
-    padding-bottom: 300px;
-    justify-content: center;
+  width: 100%;
+  display: flex;
+  background-color: rgb(248, 200, 160);
+  padding-top: 300px;
+  padding-bottom: 300px;
+  justify-content: center;
 }
 
 .footer__date {
-    margin: 0;
+  margin: 0;
 }
