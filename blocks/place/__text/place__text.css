@@ -4,3 +4,10 @@
   max-width: 445px;
   line-height: 1.5;
 }
+
+@media (max-width: 868px) {
+  .place__text {
+    color: #fff;
+    text-shadow: 1px 1px 2px black, 0 0 1em white, 0 0 0.2em blue;
+  }
+}

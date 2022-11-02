@@ -3,3 +3,10 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: minmax(288px, 508px);
 }
+
+@media (max-width: 868px) {
+  .place {
+    grid-template-columns: 1fr;
+    position: relative;
+  }
+}

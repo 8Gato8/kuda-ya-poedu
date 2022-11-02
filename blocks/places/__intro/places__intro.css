@@ -1,11 +1,36 @@
 .places__intro {
   display: grid;
   box-sizing: border-box;
-  padding: 60px 60px 100px;
+  padding: 70px 70px 100px;
+  /* grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(288px, 508px); */
   justify-items: center;
+  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
     "caption image"
     "title image";
+}
+
+@media (max-width: 1040px) {
+  .places__intro {
+    padding: 50px 50px 80px;
+  }
+}
+
+@media (max-width: 978px) {
+  .places__intro {
+    padding: 30px 30px 60px;
+  }
+}
+
+@media (max-width: 868px) {
+  .places__intro {
+    grid-template-columns: 1fr;
+    grid-template-rows: minmax(288px, 508px);
+    position: relative;
+    grid-template-areas: none;
+    padding: 0;
+  }
 }

@@ -1,10 +1,19 @@
 .places__intro-image {
   grid-area: image;
-  align-self: center;
-  width: 70%;
+  /* align-self: center; */
   aspect-ratio: 1 / 1;
+  width: 70%;
 }
 
-/* @media (max-width: 868px) {
-
-} */
+@media (max-width: 868px) {
+  .places__intro-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: top;
+  }
+}
