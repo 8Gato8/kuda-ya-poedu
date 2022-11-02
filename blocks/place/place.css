@@ -1,5 +1,5 @@
 .place {
-  display: flex;
-  height: 508px;
-  border: 1px solid green;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: minmax(288px, 508px);
 }

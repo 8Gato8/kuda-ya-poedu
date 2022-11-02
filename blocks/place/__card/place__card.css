@@ -1,6 +1,37 @@
 .place__card {
   display: flex;
   flex-direction: column;
-  padding: 60px;
+  padding: 70px;
+  box-sizing: border-box;
   row-gap: 20px;
+  /* width: 100%;
+  height: 100%; */
+  background-color: #f2f2f2;
 }
+
+@media (max-width: 1040px) {
+  .place__card {
+    padding: 60px;
+  }
+}
+
+
+@media (max-width: 1040px) {
+  .place__card {
+    padding: 50px;
+  }
+}
+
+@media (max-width: 868px) {
+  .place__card {
+    padding: 35px;
+  }
+}
+
+/*
+@media (max-width: 720px) {
+  .place__card {
+    padding: 25px;
+  }
+}
+ */

@@ -1,6 +1,10 @@
 .places__intro-image {
   grid-area: image;
   align-self: center;
-  width: 60%;
+  width: 70%;
   aspect-ratio: 1 / 1;
 }
+
+/* @media (max-width: 868px) {
+
+} */
