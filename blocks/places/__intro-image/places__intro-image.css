@@ -1,0 +1,6 @@
+.places__intro-image {
+  grid-area: image;
+  align-self: center;
+  width: 60%;
+  aspect-ratio: 1 / 1;
+}

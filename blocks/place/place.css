@@ -1,0 +1,5 @@
+.place {
+  display: flex;
+  height: 508px;
+  border: 1px solid green;
+}

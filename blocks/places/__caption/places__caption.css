@@ -1,0 +1,7 @@
+.places__caption {
+  grid-area: caption;
+  align-self: end;
+  justify-self: start;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
