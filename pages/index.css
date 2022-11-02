@@ -16,6 +16,9 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/header/__btns/header__btns.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/_report/header_report.css);
 
 /*places*/
 
