@@ -18,6 +18,9 @@
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/header/__btns/header__btns.css);
+@import url(../blocks/header/__link/header__link.css);
+@import url(../blocks/header/_report/header_report.css);
 
 /*places*/
 
@@ -36,4 +39,12 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__card/place__card.css);
 
+/*people*/
+@import url(../blocks/people/people.css);
+@import url(../blocks/people/__comments/people__comments.css);
+@import url(../blocks/people/__feed/people__feed.css);
+@import url(../blocks/people/__heading/people__heading.css);
+@import url(../blocks/people/__name/people__name.css);
+
 /*footer*/
+@import url(../blocks/footer/footer.css);
