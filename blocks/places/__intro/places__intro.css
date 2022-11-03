@@ -1,7 +1,6 @@
 .places__intro {
   display: grid;
-  /* box-sizing: border-box; */
-  padding: 70px 70px 100px;
+  padding: 70px 40px 100px;
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr;
@@ -9,18 +8,6 @@
   grid-template-areas:
     "caption image"
     "title image";
-}
-
-@media (max-width: 1040px) {
-  .places__intro {
-    padding: 50px 50px 80px;
-  }
-}
-
-@media (max-width: 978px) {
-  .places__intro {
-    padding: 30px 30px 60px;
-  }
 }
 
 @media (max-width: 868px) {

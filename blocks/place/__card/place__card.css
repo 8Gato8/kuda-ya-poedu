@@ -1,23 +1,24 @@
 .place__card {
   display: flex;
   flex-direction: column;
-  padding: 70px;
+  padding: 50px;
   box-sizing: border-box;
   row-gap: 20px;
   background-color: #f2f2f2;
 }
 
-@media (max-width: 1040px) {
-  .place__card {
-    padding: 60px;
-  }
-}
-
 @media (max-width: 868px) {
   .place__card {
-    padding: 40px;
     order: 2;
     z-index: 2;
     background-color: transparent;
+  }
+}
+
+@media (max-width: 398px) {
+  .place__card {
+    padding-left: 30px;
+    padding-right: 30px;
+    row-gap: 25px;
   }
 }

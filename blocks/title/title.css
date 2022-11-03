@@ -1,12 +1,12 @@
 .title {
   font-family: 'Nunito', sans-serif;
+  font-weight: 800;
   font-size: 34px;
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 398px) {
   .title {
-    font-size: 25px;    
-    margin-top: 0;
+    font-size: 27px;
   }
 }
