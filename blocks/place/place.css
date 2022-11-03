@@ -1,12 +1,22 @@
 .place {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: minmax(288px, 508px);
+  grid-template-rows: minmax(508px, auto);
 }
 
 @media (max-width: 868px) {
   .place {
     grid-template-columns: 1fr;
     position: relative;
+  }
+
+  .place::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #2A2C2F;
+    opacity: .3;
+    z-index: 1;
   }
 }

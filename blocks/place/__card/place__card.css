@@ -13,21 +13,11 @@
   }
 }
 
-
-@media (max-width: 1040px) {
-  .place__card {
-    padding: 50px;
-  }
-}
-
 @media (max-width: 868px) {
   .place__card {
     padding: 40px;
     order: 2;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
+    z-index: 2;
     background-color: transparent;
   }
 }

@@ -1,6 +1,5 @@
 .places__intro-image {
   grid-area: image;
-  /* align-self: center; */
   aspect-ratio: 1 / 1;
   width: 70%;
 }
@@ -12,7 +11,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -1;
+    z-index: 0;
     object-fit: cover;
     object-position: top;
   }

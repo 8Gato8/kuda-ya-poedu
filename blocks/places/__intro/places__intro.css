@@ -33,4 +33,14 @@
     grid-template-areas: none;
     padding: 0;
   }
+
+  .places__intro::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #2A2C2F;
+    opacity: .3;
+    z-index: 1;
+  }
 }
