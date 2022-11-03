@@ -2,3 +2,11 @@
   font-family: 'Nunito', sans-serif;
   font-size: 34px;
 }
+
+
+@media (max-width: 560px) {
+  .title {
+    font-size: 25px;    
+    margin-top: 0;
+  }
+}
