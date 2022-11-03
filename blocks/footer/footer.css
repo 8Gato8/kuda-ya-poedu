@@ -2,16 +2,12 @@
   width: 100%;
   display: flex;
   background-color: rgb(240, 203, 172);
-  padding: 200px  0;
+  padding: 150px  0;
   justify-content: center;
-}
-
-.footer__date {
-  margin: 0;
 }
 
 @media (max-width: 625px) {
   .footer {
-    padding: 125px 0;
+    padding: 120px 0;
   }
 }
