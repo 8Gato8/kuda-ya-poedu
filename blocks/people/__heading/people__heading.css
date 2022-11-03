@@ -3,4 +3,28 @@
     flex-direction: column;
     max-width: 300px;
     width: 100%;
+    padding: 0 0 0 70px;
 }
+
+@media (max-width: 800px) {
+    .people__heading {
+        padding: 0;
+        max-width: 550px;
+      flex-wrap: wrap;
+      margin: 0 auto;
+    }
+  }
+
+  @media (max-width: 560px) {
+    .people__heading {
+      max-width: 400px;
+    }
+  }
+
+  @media (max-width: 397px) {
+    .people__heading {
+      max-width: 260px;
+    }
+  }
+
+
