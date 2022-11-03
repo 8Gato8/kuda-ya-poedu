@@ -46,6 +46,7 @@
 
 /*people*/
 @import url(../blocks/people/people.css);
+@import url(../blocks/people/__comment/people__comment.css);
 @import url(../blocks/people/__comments/people__comments.css);
 @import url(../blocks/people/__feed/people__feed.css);
 @import url(../blocks/people/__heading/people__heading.css);

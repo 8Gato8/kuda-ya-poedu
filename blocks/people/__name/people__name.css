@@ -7,3 +7,9 @@
     font-size: 17px;
     line-height: 22px;
 }
+
+@media (max-width:560px){
+    .people__name {
+        padding-bottom: 10px;
+    }
+}
