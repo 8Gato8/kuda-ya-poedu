@@ -4,8 +4,9 @@
 }
 
 
-@media (max-width: 397px) {
+@media (max-width: 560px) {
   .title {
     font-size: 25px;    
+    margin-top: 0;
   }
 }

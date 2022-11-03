@@ -2,23 +2,23 @@
     display: flex;
     list-style-type: none;
     padding: 0 70px 0 70px;
-    margin: 0;
-    gap: 25px;
+    margin: 70px auto 0;
+    gap: 40px;
     max-width: 1140px;
 }
 
 @media (max-width: 800px) {
     .people__comments {
-        padding: 0;
+      padding: 0;
       flex-wrap: wrap;
-      margin: 0 auto;
       max-width: 550px;
     }
   }
 
   @media (max-width: 560px) {
     .people__comments {
-        gap: 15px;
+      margin-top: 30px;
+      gap: 15px;
       max-width: 260px;
     }
   }
