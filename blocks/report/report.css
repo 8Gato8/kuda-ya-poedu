@@ -1,0 +1,9 @@
+.report {
+  margin: 0 0 0 auto;
+}
+
+@media (max-width: 668px) {
+  .report {
+    margin: 0;
+  }
+}

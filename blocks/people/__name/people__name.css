@@ -1,15 +1,12 @@
 .people__name {
-    max-width: 200px;
-    width: 100%;
-    padding-bottom: 20px;
-    margin: 0;
-    font-weight: 900;
-    font-size: 17px;
-    line-height: 22px;
+  max-width: 200px;
+  width: 100%;
+  padding-bottom: 20px;
+  margin: 0;
 }
 
-@media (max-width:560px){
-    .people__name {
-        padding-bottom: 10px;
-    }
+@media (max-width:560px) {
+  .people__name {
+    padding-bottom: 10px;
+  }
 }

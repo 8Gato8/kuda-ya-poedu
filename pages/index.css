@@ -8,23 +8,27 @@
 
 @import url(../blocks/title/title.css);
 @import url(../blocks/text/text.css);
+@import url(../blocks/text/_weight/text_weight_regular.css);
+@import url(../blocks/text/_weight/text_weight_bold.css);
+@import url(../blocks/text/_transform/text_transform_uppercase.css);
 @import url(../blocks/caption/caption.css);
 
 /*page*/
+
 @import url(../blocks/page/__people/page__footer.css);
 @import url(../blocks/page/page.css);
-
-/*content*/
-
-@import url(../blocks/page/__content/page__content.css);
 
 /*header*/
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/page/__header/page__header.css);
-@import url(../blocks/header/__btns/header__btns.css);
+@import url(../blocks/header/__list/header__list.css);
 @import url(../blocks/header/__link/header__link.css);
-@import url(../blocks/header/_report/header_report.css);
+@import url(../blocks/report/report.css);
+
+/*content*/
+
+@import url(../blocks/page/__content/page__content.css);
 
 /*places*/
 
@@ -45,6 +49,7 @@
 @import url(../blocks/place/__card/place__card.css);
 
 /*people*/
+
 @import url(../blocks/people/people.css);
 @import url(../blocks/people/__comment/people__comment.css);
 @import url(../blocks/people/__comments/people__comments.css);
@@ -53,6 +58,7 @@
 @import url(../blocks/people/__name/people__name.css);
 
 /*footer*/
+
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/page/__footer/page__footer.css);
 @import url(../blocks/footer/__date/footer__date.css);

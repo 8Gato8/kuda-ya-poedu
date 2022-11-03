@@ -1,9 +1,7 @@
 .places__intro {
   display: grid;
-  box-sizing: border-box;
+  /* box-sizing: border-box; */
   padding: 70px 70px 100px;
-  /* grid-template-columns: 1fr 1fr;
-  grid-template-rows: minmax(288px, 508px); */
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr;
