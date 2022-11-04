@@ -1,5 +1,9 @@
-@media (max-width: 1300px) {
+.header {
+    padding: 50px 70px 0 70px;
+}
+
+@media (max-width: 868px) {
     .header {
-        padding: 0 70px 0 70px;
+        padding: 50px;
     }
 }
