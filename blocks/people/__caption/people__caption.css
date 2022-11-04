@@ -1,0 +1,10 @@
+.people__caption {
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 868px) {
+  .people__caption {
+    margin-bottom: 24px;
+  }
+}

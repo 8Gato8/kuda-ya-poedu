@@ -1,12 +1,9 @@
 .people__name {
-  max-width: 200px;
-  width: 100%;
-  padding-bottom: 20px;
-  margin: 0;
+  margin: 0 0 20px 0;
 }
 
-@media (max-width:597px) {
+/* @media (max-width:px) {
   .people__name {
-    padding-bottom: 10px;
+    padding-bottom: 20px;
   }
-}
+} */

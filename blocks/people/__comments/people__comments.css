@@ -1,18 +1,14 @@
 .people__comments {
-  max-width: 1140px;
-  width: 100%;
   display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
   gap: 60px;
-
 }
 
 @media (max-width: 868px) {
   .people__comments {
     flex-wrap: wrap;
-    max-width: 550px;
     gap: 30px;
     margin: 0 auto;
   }
@@ -20,7 +16,6 @@
 
 @media (max-width: 597px) {
   .people__comments {
-    max-width: 260px;
     gap: 25px;
   }
 }
