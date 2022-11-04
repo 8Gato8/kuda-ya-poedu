@@ -1,24 +1,26 @@
 .people__comments {
-    display: flex;
-    list-style-type: none;
-    padding: 0 70px 0 70px;
-    margin: 70px auto 0;
-    gap: 40px;
-    max-width: 1140px;
+  max-width: 1140px;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  gap: 60px;
+
 }
 
-@media (max-width: 800px) {
-    .people__comments {
-      padding: 0;
-      flex-wrap: wrap;
-      max-width: 550px;
-    }
+@media (max-width: 868px) {
+  .people__comments {
+    flex-wrap: wrap;
+    max-width: 550px;
+    gap: 30px;
+    margin: 0 auto;
   }
+}
 
-  @media (max-width: 560px) {
-    .people__comments {
-      margin-top: 30px;
-      gap: 15px;
-      max-width: 260px;
-    }
+@media (max-width: 597px) {
+  .people__comments {
+    max-width: 260px;
+    gap: 25px;
   }
+}

@@ -1,18 +1,14 @@
-/* .people {
-    max-width: 1140px;
-    width: 100%;
-    margin: 100px auto;
-}
+ .people {
+   max-width: 1140px;
+   width: 100%;
+   padding: 100px 70px;
+   box-sizing: border-box;
 
-@media (max-width: 800px) {
-    .people {
-      margin: 70px auto 70px;
-      max-width: 750px;
-    }
-  }
+ }
 
-  @media (max-width: 560px) {
-    .people {
-      margin: 50px auto 50px;
-    }
-  } */
+ @media (max-width: 868px) {
+   .people {
+     padding: 40px 20px 60px;
+     max-width: 750px;
+   }
+ }
