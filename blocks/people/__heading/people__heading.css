@@ -6,7 +6,6 @@
 
 @media (max-width: 868px) {
   .people__heading {
-    /* padding: 0; */
     margin: 0 auto 100px;
     text-align: center;
   }

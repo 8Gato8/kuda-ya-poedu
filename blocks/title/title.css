@@ -11,3 +11,10 @@
     text-shadow: 1px 1px 2px black, 0 0 1em #3b3b3b, 0 0 0.2em black;
   }
 }
+
+
+@media (max-width: 398px) {
+  .title {
+    font-size: 28px;
+  }
+}
