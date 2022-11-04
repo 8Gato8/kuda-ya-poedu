@@ -1,18 +1,18 @@
 .page__people {
-    max-width: 1140px;
-    width: 100%;
-    margin: 100px auto;
+  max-width: 1140px;
+  width: 100%;
+
 }
 
 @media (max-width: 800px) {
-    .page__people {
-      margin: 70px auto 70px;
-      max-width: 750px;
-    }
+  .page__people {
+    padding: 70px;
+    max-width: 750px;
   }
+}
 
-  @media (max-width: 560px) {
-    .page__people {
-      margin: 50px auto 50px;
-    }
+@media (max-width: 560px) {
+  .page__people {
+    padding: 50px;
   }
+}

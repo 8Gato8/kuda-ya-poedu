@@ -2,8 +2,16 @@
   text-decoration: none;
   color: black;
   transition: opacity .2s linear;
+
 }
 
 .header__link:hover {
   opacity: 0.5;
+}
+
+@media (max-width: 568px) {
+  .header__item {
+    max-width: 120px;
+    width: 100%;
+  }
 }
