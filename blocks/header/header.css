@@ -1,9 +1,16 @@
 .header {
-    padding: 50px 70px 0 70px;
+  padding: 50px 70px 0 70px;
 }
 
 @media (max-width: 868px) {
-    .header {
-        padding: 50px;
-    }
+  .header {
+    padding: 50px;
+    background-color: rgb(72 63 63);
+  }
+}
+
+@media (max-width: 368px) {
+  .header {
+    padding: 30px;
+  }
 }

@@ -9,9 +9,8 @@
   opacity: 0.5;
 }
 
-@media (max-width: 568px) {
-  .header__item {
-    max-width: 120px;
-    width: 100%;
+@media (max-width: 868px) {
+  .header__link {
+    color: #fff;
   }
 }
