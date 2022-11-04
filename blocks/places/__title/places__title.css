@@ -9,10 +9,10 @@
   .places__title {
     position: absolute;
     margin-top: 0;
-    bottom: 40%;
+    bottom: 35%;
     left: 0;
     z-index: 2;
-    padding: 0 40px;
+    padding: 0 50px;
     background-color: transparent;
     max-width: 445px;
     color: #fff;

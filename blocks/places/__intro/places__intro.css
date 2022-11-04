@@ -1,6 +1,6 @@
 .places__intro {
   display: grid;
-  padding: 70px 40px 100px;
+  padding: 70px 70px 100px;
   justify-items: center;
   align-items: center;
   grid-template-columns: 1fr 1fr;

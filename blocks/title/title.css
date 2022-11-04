@@ -1,9 +1,7 @@
 .title {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 800;
+  font-family: 'Inter', Arial, sans-serif;
   font-size: 34px;
 }
-
 
 @media (max-width: 398px) {
   .title {
