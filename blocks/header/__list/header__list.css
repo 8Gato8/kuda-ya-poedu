@@ -4,10 +4,9 @@
   display: flex;
   column-gap: 30px;
   list-style-type: none;
-
 }
 
-@media (max-width: 568px) {
+@media (max-width: 590px) {
   .header__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -16,7 +15,7 @@
   }
 }
 
-@media (max-width: 368px) {
+@media (max-width: 398px) {
   .header__list {
     gap: 15px;
   }

@@ -1,12 +1,10 @@
 .text {
   font-family: 'Inter', Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 @media (max-width: 868px) {
   .text {
-    font-size: 17px;
-    color: #fff;
-    text-shadow: 1px 1px 2px black, 0 0 1em #3b3b3b, 0 0 0.2em black;
+    font-size: 18px;
   }
 }

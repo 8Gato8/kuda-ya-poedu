@@ -1,17 +1,15 @@
 .people {
   padding: 100px 70px;
-  box-sizing: border-box;
 }
 
 @media (max-width: 868px) {
   .people {
     padding: 50px;
-    background-color: rgb(72 63 63);
   }
 }
 
 @media (max-width: 398px) {
   .people {
-    padding: 25px;
+    padding: 30px;
   }
 }

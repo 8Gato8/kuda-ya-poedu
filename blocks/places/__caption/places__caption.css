@@ -1,20 +1,16 @@
 .places__caption {
   grid-area: caption;
   align-self: end;
-  justify-self: start;
   margin-top: 0;
   margin-bottom: 12px;
 }
 
 @media (max-width: 868px) {
   .places__caption {
-    position: absolute;
-    margin-bottom: 0;
-    top: 0;
-    right: 0;
-    z-index: 2;
-    padding: 20px 50px 0 0;
+    grid-area: auto;
+    z-index: 1;
     max-width: 445px;
     background-color: transparent;
+    text-align: center;
   }
 }

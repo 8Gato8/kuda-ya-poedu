@@ -2,29 +2,22 @@
   grid-area: title;
   margin-top: 12px;
   margin-bottom: 0;
-  align-self: start;
-  justify-self: start;
 }
 
 @media (max-width: 868px) {
   .places__title {
-    position: absolute;
-    margin-top: 0;
-    bottom: 35%;
-    left: 0;
-    z-index: 2;
+    grid-area: auto;
+    z-index: 1;
     padding: 0 50px;
     background-color: transparent;
-    max-width: 450px;
+    text-align: center;
     color: #fff;
-    text-shadow: 1px 1px 2px black, 0 0 1em #c2c2c2, 0 0 0.2em #000;
   }
 }
 
 @media (max-width: 398px) {
   .places__title {
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }

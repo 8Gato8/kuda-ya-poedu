@@ -1,6 +1,11 @@
 .place__text {
   margin: 0;
-  align-self: flex-start;
   max-width: 450px;
   line-height: 1.5;
+}
+
+@media (max-width: 868px) {
+  .place__text {
+    color: #fff;
+  }
 }
