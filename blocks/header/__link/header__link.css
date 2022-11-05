@@ -1,16 +1,10 @@
 .header__link {
   text-decoration: none;
-  color: black;
+  color: #000;
   transition: opacity .2s linear;
 
 }
 
 .header__link:hover {
-  opacity: 0.5;
-}
-
-@media (max-width: 868px) {
-  .header__link {
-    color: #fff;
-  }
+  opacity: 0.6;
 }

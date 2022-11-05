@@ -12,7 +12,7 @@
 
   <div class="wrapper">
 
-    <header class="header page__header">
+    <header class="header">
       <nav class="header__nav">
         <ul class="header__list">
           <li class="header__item">
@@ -24,7 +24,7 @@
           <li class="header__item">
             <a href="#" class="header__link text text_weight_bold">Реальность</a>
           </li>
-          <li class="header__item report">
+          <li class="header__item">
             <a href="#" class="header__link text text_weight_bold">Пожаловаться</a>
           </li>
         </ul>
@@ -33,27 +33,28 @@
 
     <main class="content">
 
-      <section class="places content__places">
+      <section class="places">
 
         <div class="places__intro">
 
           <p class="places__caption caption text text_transform_uppercase">Куда я&nbsp;поеду</p>
           <h1 class="places__title title">Куда я&nbsp;поеду сразу, как можно будет куда-то поехать</h1>
           <img class="places__intro-image" src="./images/intro-image.jpeg" alt="Хвост самолета на фоне закатного неба">
+
         </div>
 
         <ul class="places-list places__list">
 
-          <li class="places-list__place place">
+          <li class="place">
 
             <img class="place__image" src="./images/places-forest.jpeg" alt="Мужчина стоит у водопада">
 
             <div class="place__card">
               <h2 class="place__title title">Поеду в&nbsp;лес</h2>
-              <p class="place__text text text_weight_regular">Лес&nbsp;&mdash; экологическая система, биоценоз,
+              <p class="place__text text text_weight_medium">Лес&nbsp;&mdash; экологическая система, биоценоз,
                 в&nbsp;которой главной
                 жизненной формой являются деревья.</p>
-              <p class="place__text text text_weight_regular">Лес&nbsp;&mdash; составная часть природы, понятие
+              <p class="place__text text text_weight_medium">Лес&nbsp;&mdash; составная часть природы, понятие
                 &laquo;лес&raquo; можно
                 рассматривать на&nbsp;разных уровнях. В&nbsp;глобальном масштабе&nbsp;&mdash; это часть биосферы,
                 в&nbsp;локальном&nbsp;&mdash; это может быть насаждение. Леса занимают около трети площади суши.
@@ -62,11 +63,11 @@
 
           </li>
 
-          <li class="places-list__place place">
+          <li class="place">
 
             <div class="place__card">
               <h2 class="place__title title">Поеду в&nbsp;горы</h2>
-              <p class="place__text text text_weight_regular">Горные системы занимают 64&nbsp;% поверхности Азии,
+              <p class="place__text text text_weight_medium">Горные системы занимают 64&nbsp;% поверхности Азии,
                 36&nbsp;%&nbsp;&mdash;
                 Северной Америки, 25&nbsp;%&nbsp;&mdash; Европы, 22&nbsp;%&nbsp;&mdash; Южной Америки,
                 17&nbsp;%&nbsp;&mdash; Австралии и&nbsp;3&nbsp;%&nbsp;&mdash; Африки. В&nbsp;целом 24&nbsp;% земной
@@ -79,23 +80,23 @@
 
           </li>
 
-          <li class="places-list__place place">
+          <li class="place">
 
             <img class="place__image" src="./images/places-black-sea.jpeg" alt="Девушка на побережье Чёрного моря смотрит за горизонт">
 
             <div class="place__card">
               <h2 class="place__title title">Поеду на&nbsp;Чёрное море</h2>
-              <p class="place__text text text_weight_regular">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был,
+              <p class="place__text text text_weight_medium">Я&nbsp;уплыву туда, где ни&nbsp;разу я&nbsp;не&nbsp;был,
                 туда, где никто раньше
                 не&nbsp;был. Никто и&nbsp;никогда раньше не&nbsp;был, я&nbsp;уплыву. Я&nbsp;позову тебя смотреть
                 на&nbsp;синее небо и&nbsp;пить по&nbsp;капле синее небо, и&nbsp;падать в&nbsp;это синее небо,
                 я&nbsp;позову.</p>
-              <p class="place__text text text_weight_regular">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море,
+              <p class="place__text text text_weight_medium">Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море,
                 на&nbsp;Чёрное-Чёрное море,
                 на&nbsp;Чёрное-Чёрное море уеду&nbsp;я. Уеду я&nbsp;на&nbsp;Чёрное-Чёрное море, на&nbsp;Чёрное-Чёрное
                 море, на&nbsp;Чёрное-Чёрное море.
               </p>
-              <p class="place__text text text_weight_regular">Уеду&nbsp;я.</p>
+              <p class="place__text text">Уеду&nbsp;я.</p>
             </div>
 
           </li>
@@ -104,39 +105,50 @@
 
       </section>
 
-      <section class="people page__people">
+      <section class="people">
 
         <div class="people__heading">
           <p class="people__caption caption text text_transform_uppercase">люди</p>
-          <h2 class="title people__title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
+          <h2 class="people__title title">Что говорят и&nbsp;говорили люди о&nbsp;путешествиях</h2>
         </div>
 
         <ul class="people__comments">
+
           <li class="people__comment">
-            <p class="people__name text text_weight_bold text_transform_uppercase">Иван Бунин</p>
-            <p class="people__message text text_weight_regular">Человека делают счастливым три вещи: любовь, интересная
-              работа и&nbsp;возможность
-              путешествовать.</p>
+            <blockquote class="people__quote">
+              <cite class="people__name text text_weight_bold text_transform_uppercase">Иван Бунин</cite>
+              <p class="people__message text text_weight_regular">Человека делают счастливым три вещи: любовь, интересная
+                работа и&nbsp;возможность
+                путешествовать.</p>
+            </blockquote>
           </li>
 
           <li class="people__comment">
-            <p class="people__name text text_weight_bold text_transform_uppercase">Альбер Камю</p>
-            <p class="people__message text text_weight_regular">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.
-            </p>
+            <blockquote class="people__quote">
+              <cite class="people__name text text_weight_bold text_transform_uppercase">Альбер Камю</cite>
+              <p class="people__message text text_weight_regular">Путешествие как самая великая и&nbsp;серьезная наука помогает нам вновь обрести себя.
+              </p>
+            </blockquote>
           </li>
 
           <li class="people__comment">
-            <p class="people__name text text_weight_bold text_transform_uppercase">Норвежская пословица</p>
-            <p class="people__message text">Лишь тот, кто странствует, открывает новые пути.</p>
+            <blockquote class="people__quote">
+              <cite class="people__name text text_weight_bold text_transform_uppercase">Норвежская пословица</cite>
+              <p class="people__message text">Лишь тот, кто странствует, открывает новые пути.</p>
+            </blockquote>
           </li>
 
           <li class="people__comment">
-            <p class="people__name text text_weight_bold text_transform_uppercase">Мария Захарова</p>
-            <p class="people__message text">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее,
-              ответственнейшее
-              и&nbsp;очень рискованное предприятие.</p>
+            <blockquote class="people__quote">
+              <cite class="people__name text text_weight_bold text_transform_uppercase">Мария Захарова</cite>
+              <p class="people__message text">В&nbsp;принципе зарубежная поездка&nbsp;&mdash; это серьезнейшее,
+                ответственнейшее
+                и&nbsp;очень рискованное предприятие.</p>
+            </blockquote>
           </li>
+
         </ul>
+
       </section>
 
     </main>

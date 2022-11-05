@@ -1,8 +1,6 @@
 .places__intro {
   display: grid;
   padding: 70px 70px 100px;
-  justify-items: center;
-  align-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
@@ -12,8 +10,9 @@
 
 @media (max-width: 868px) {
   .places__intro {
+    justify-items: center;
     grid-template-columns: 1fr;
-    grid-template-rows: minmax(288px, 508px);
+    min-height: 508px;
     position: relative;
     grid-template-areas: none;
     padding: 0;
@@ -25,7 +24,7 @@
     height: 100%;
     width: 100%;
     background: #2A2C2F;
-    opacity: .3;
-    z-index: 1;
+    opacity: .7;
+    z-index: 0;
   }
 }

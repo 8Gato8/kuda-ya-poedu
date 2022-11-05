@@ -5,12 +5,11 @@
 @media (max-width: 868px) {
   .header {
     padding: 50px;
-    background-color: rgb(72 63 63);
   }
 }
 
-@media (max-width: 368px) {
+@media (max-width: 398px) {
   .header {
-    padding: 30px;
+    padding: 25px;
   }
 }

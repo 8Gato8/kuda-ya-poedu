@@ -1,3 +1,5 @@
 .people__name {
+  display: block;
   margin: 0 0 20px 0;
+  font-style: normal;
 }
