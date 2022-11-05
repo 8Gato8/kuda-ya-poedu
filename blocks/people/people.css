@@ -9,3 +9,9 @@
     background-color: rgb(72 63 63);
   }
 }
+
+@media (max-width: 398px) {
+  .people {
+    padding: 25px;
+  }
+}
